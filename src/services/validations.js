@@ -3,7 +3,7 @@
 const isEmpty = (label) => !label || label.length === 0;
 
 const isValid = (label) => {
-    if(label.length >= 8 && /[^a-zA-Z0-9]/.test(label)) return true;
+    if(label.length >= 8 && /[^a-zA-Z0-9]/.test(label) && /[0-9]/.test(label)) return true;
     return false;
 }
 
