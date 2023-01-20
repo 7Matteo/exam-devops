@@ -17,7 +17,6 @@ describe("validations tests suites - isEmpty", () => {
     });
 });
 
-
 describe("validations tests suites - isValid", () => {
     test("should return true as the label is 9 chars lenght", () => {
         const result = isValid("aaaaaaaa1a&");
